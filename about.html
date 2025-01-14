@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pearl of Africa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4e44a7;
+            color: white;
+            padding: 15px 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: white;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #4e44a7;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .about-text {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .mission-section {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .mission-title {
+            color: #4e44a7;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        footer {
+            background-color: #4e44a7;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                padding: 15px 20px;
+            }
+
+            nav {
+                margin-top: 20px;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-link {
+                margin: 10px 0;
+                width: 200px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .about-text {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Pearl of Africa Logo" class="logo">
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="about-content">
+            <h1>About Pearl of Africa</h1>
+            
+            <p class="about-text">
+                Welcome to the Pearl of Africa! Our goal is to showcase the beauty, culture, and vibrancy of Uganda and its rich heritage.
+                From the breathtaking landscapes of the Rwenzori Mountains to the tranquil shores of Lake Victoria, Uganda is a land of adventure and discovery.
+            </p>
+
+            <div class="mission-section">
+                <h2 class="mission-title">Our Mission</h2>
+                <p class="about-text">
+                    We are dedicated to providing visitors with comprehensive information to explore and experience this incredible destination.
+                    Whether you're interested in wildlife safaris, cultural festivals, or culinary delights, we're here to guide you through the wonders of Uganda.
+                </p>
+                <p class="about-text">
+                    Our passion is to reveal the hidden gems and incredible stories of this remarkable country, inviting travelers to embark on an unforgettable journey through one of the most beautiful and unique destinations in the world.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Pearl of Africa. All Rights Reserved.
+    </footer>
+</body>
+</html>
